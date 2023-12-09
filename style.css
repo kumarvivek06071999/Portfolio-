@@ -1,16 +1,19 @@
 /* GENERAL */
 @font-face {
     font-family: 'Anastasia';
-    src: url('assets/fonts/Anastasia.otf') format('truetype'); /* Update the path and format accordingly */
+    src: url('assets/fonts/Anastasia.otf') format('truetype');
+    /* Update the path and format accordingly */
     font-weight: normal;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Sarasvati';
-    src: url('assets/fonts/Sarasvati-9Y4w5.ttf') format('truetype'); /* Update the path and format accordingly */
+    src: url('assets/fonts/Sarasvati-9Y4w5.ttf') format('truetype');
+    /* Update the path and format accordingly */
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -305,7 +308,10 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    border-radius: 10%;
 }
+
+
 
 .arrow {
     position: absolute;
@@ -325,10 +331,8 @@ section {
 
 .section__pic-container {
     height: 400px;
-    width: 300px;
+    width: 400px;
     margin: auto 0;
-    
-    
 }
 
 .section__pic-container img {
